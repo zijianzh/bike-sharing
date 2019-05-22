@@ -5,3 +5,8 @@ print(lm)
 
 svr = load('svr.joblib')
 print(svr)
+
+xgb = load('xgb.joblib')
+print(xgb)
+
+
