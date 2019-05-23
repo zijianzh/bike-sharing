@@ -3,7 +3,7 @@ import pandas as pd
 from prediction import Predictor
 from sklearn.base import BaseEstimator
 
-class MyTestCase(unittest.TestCase):
+class PredictorTest(unittest.TestCase):
 
     def setUp(self):
         self.features = pd.read_csv('test_dataset.csv', sep=',')
