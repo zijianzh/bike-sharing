@@ -1,5 +1,7 @@
 day.csv
 hour.csv
 .ipynb_checkpoints/
+.idea/
+__pycache__/
 test.py
 ~$Readme.docx
