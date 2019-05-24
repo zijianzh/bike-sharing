@@ -4,3 +4,4 @@ hour.csv
 .idea/
 __pycache__/
 Readme.docx
+.DS_Store
