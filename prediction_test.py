@@ -15,11 +15,12 @@ class PredictorTest(unittest.TestCase):
     def test_predict(self):
         predictions = self.preditor.predict()
         self.assertIsInstance(predictions, list)
+        # test the prediction results has same instances as input instances
         self.assertIs(len(predictions), self.features.shape[0])
+        # test the predictions all greater than zero
         self.assertGreaterEqual(min(predictions), 0)
 
-    def tearDown(self):
-        pass
+
 
 if __name__ == '__main__':
     unittest.main()
